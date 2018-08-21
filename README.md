@@ -1,5 +1,5 @@
 # Update-ServerMembership
-**Update-ServerMembership** - A PowerShell script that updates server membership to a group.  
+**Update-ServerMembership** - A simple PowerShell script that updates Active Directory server membership to the Servers group.  
 Matthew R. Kisow, D.Sc. <matthew.kisow@kisow.org>  
 Copyright &copy; Kisow Foundation, Inc.&reg; 2018.  
 
