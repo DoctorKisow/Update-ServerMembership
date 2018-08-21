@@ -1,7 +1,7 @@
 # Update-ServerMembership
-**Update-ServerMembership** - A PowerShell script that updates server membership to a group.
+**Update-ServerMembership** - A PowerShell script that updates server membership to a group.  
 Matthew R. Kisow, D.Sc. <matthew.kisow@kisow.org>  
-Copyright &copy; Kisow Foundation, Inc.&reg; 2018.
+Copyright &copy; Kisow Foundation, Inc.&reg; 2018.  
 
 ## Getting Started
 This script runs as a scheduled task and will remove any disabled "server" object(s) from the "Servers" group and add any new "server" object(s) to the "Servers" group.
