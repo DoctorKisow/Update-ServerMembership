@@ -19,11 +19,12 @@ This script runs as a scheduled task and will remove any disabled "server" objec
    **Program/script:**             C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe  
    **Add arguements (optional):**  ExecutionPolicy Bypass -File "_<script location>_\Update-ServerMembership.ps1"  
      **NOTE:** Yes the _<script location>_ can be a UNC path.  
-3. On the Triggers tab, create a new trigger with the following properties:  
+3. On the **Triggers** tab, create a new trigger with the following properties:  
    **Begin the task:**             On a schedule  
-   Choose the **One time** radio button, select _<any date>_ and _<any time>_.  
-   Repeat task every 8 hours for a duration of indefinately.  
-     **NOTE:** Yes there is a drop-down list for the repeat task; you can type in any number you want for the repeat hours.
+   Choose the **One time** radio button then select _<any date>_ and _<any time>_.  
+     **NOTE:** Figuratively _<any date>_ and _<any time>_.
+   Select the **Repeat task every:** check box and manually enter "_8 hours_" for the repeat time.  
+   Choose "_indefinately_" from the **for a duration of:** drop-down.
          
 ## License
 License (GPL v3.0)
